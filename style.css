@@ -169,3 +169,46 @@ main {
 .hidden {
   display: none;
 }
+
+@media (max-width: 620px) {
+  html {
+    font-size: 50%;
+  }
+
+  main {
+    display: flex;
+    flex-direction: column;
+    width: 85%;
+    height: 80%;
+    gap: 20rem;
+  }
+
+  .player {
+    padding: 6rem;
+  }
+
+  .current {
+    width: 40%;
+  }
+
+  .dice {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -90%);
+  }
+
+  .btn--new {
+    top: 50%;
+    left: 20%;
+  }
+
+  .btn--roll {
+    top: 52%;
+  }
+
+  .btn--hold {
+    top: 50%;
+    left: 76%;
+  }
+}
