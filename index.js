@@ -100,7 +100,7 @@ document.querySelector('.btn--roll').addEventListener('click', function () {
   }
 
   // assigning the src of dice image that matches the rollDice number.
-  diceSrc = `./assets/dice-${rollDice}.png`;
+  diceSrc = `/assets/dice-${rollDice}.png`;
 
   // setting new value of src to the dice image.
   dice.setAttribute('src', diceSrc);
