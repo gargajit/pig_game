@@ -47,6 +47,7 @@ const resetData = function () {
   // make player 1 active
   if (!player1.classList.contains('player--active')) {
     player1.classList.add('player--active');
+    player2.classList.remove('player--active');
   }
 
   // if player 1 was previous winner, remove the player--winner class
