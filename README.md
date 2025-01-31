@@ -10,3 +10,6 @@ The **Pig Game** gets its name from the animal "pig" because the gameplay involv
 
 ## UI
 ![pig-game](https://github.com/user-attachments/assets/65f4b629-ce3f-4b15-9eb4-92d949add657)
+
+![image](https://github.com/user-attachments/assets/021cbe7e-2abb-4e79-8f05-ecc2687a4120)
+
