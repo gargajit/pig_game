@@ -25,7 +25,6 @@ let dice = document.querySelector('.dice');
 let rollDice = 5;
 
 let diceSrc = dice.getAttribute('src');
-// console.log(diceSrc, typeof diceSrc);
 
 // function to reset the Data - used when DOMContentLoaded and NewGame
 const resetData = function () {
