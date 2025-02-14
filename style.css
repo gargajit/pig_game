@@ -325,3 +325,64 @@ main {
     transform: translate(-50%, -50%);
   }
 }
+
+@media (max-width: 480px) {
+  html {
+    font-size: 40%;
+  }
+
+  main {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    height: 75%;
+  }
+
+  .player {
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 4rem;
+    gap: 10px;
+  }
+
+  .current {
+    width: 40%;
+  }
+
+  .dice {
+    height: 9rem;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .btn {
+    font-size: 1.2rem;
+  }
+  .btn::first-letter {
+    font-size: 1.5rem;
+  }
+
+  .btn--new {
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .btn--roll {
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+  }
+
+  .btn--hold {
+    position: absolute;
+    top: 50%;
+    left: 80%;
+    flex-shrink: 0;
+    transform: translate(-50%, -50%);
+  }
+}
