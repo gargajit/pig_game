@@ -26,7 +26,8 @@ body {
 /* LAYOUT */
 main {
   position: relative;
-  width: 100rem;
+  /* width: 100rem; */
+  width: 70%;
   height: 60rem;
   background-color: rgba(255, 255, 255, 0.35);
   backdrop-filter: blur(200px);
@@ -43,6 +44,7 @@ main {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: space-between;
   transition: all 0.75s;
 }
 
@@ -62,6 +64,10 @@ main {
   font-weight: 300;
   color: #c7365f;
   margin-bottom: auto;
+}
+
+.total {
+  text-align: center;
 }
 
 .player--active {
@@ -171,7 +177,36 @@ main {
   display: none;
 }
 
-@media (max-width: 620px) {
+@media (max-width: 1199px) {
+  main {
+    width: 80%;
+  }
+}
+
+@media (max-width: 991px) {
+  .player {
+    padding: 7.5rem;
+    justify-content: space-around;
+    gap: 14rem;
+  }
+  .name {
+    font-size: 3.2em;
+  }
+  .score {
+    font-size: 6rem;
+  }
+  .current {
+    width: 75%;
+  }
+  .btn {
+    font-size: 1.5rem;
+  }
+  .btn::first-letter {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 767px) {
   html {
     font-size: 50%;
   }
@@ -180,12 +215,14 @@ main {
     display: flex;
     flex-direction: column;
     width: 85%;
-    height: 80%;
-    gap: 20rem;
+    height: 85%;
   }
 
   .player {
+    flex-direction: row;
+    justify-content: space-evenly;
     padding: 6rem;
+    gap: 10px;
   }
 
   .current {
@@ -194,22 +231,37 @@ main {
 
   .dice {
     position: absolute;
-    left: 50%;
+    left: 62%;
     top: 50%;
-    transform: translate(-50%, -90%);
+    transform: translate(-50%, -50%);
+  }
+
+  .btn {
+    font-size: 1.3rem;
+  }
+  .btn::first-letter {
+    font-size: 1.7rem;
   }
 
   .btn--new {
+    position: absolute;
     top: 50%;
-    left: 20%;
+    left: 15%;
+    transform: translate(-50%, -50%);
   }
 
   .btn--roll {
-    top: 52%;
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    transform: translate(-50%, -50%);
   }
 
   .btn--hold {
+    position: absolute;
     top: 50%;
-    left: 76%;
+    left: 82%;
+    flex-shrink: 0;
+    transform: translate(-50%, -50%);
   }
 }
