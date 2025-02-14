@@ -10,7 +10,7 @@
     />
     <meta
       name="keywords"
-      content="activity, bored, game, piggame, fun, kids, social, two, players"
+      content="activity, bored, game, pig game, fun, kids, social, two, players"
     />
     <meta property="og:url" content="https://gargajit.github.io/pig_game/" />
     <meta
@@ -24,6 +24,32 @@
     <title>Pig Game</title>
   </head>
   <body>
+    <button class="show-modal">About the Game</button>
+    <div class="modal">
+      <button class="close-modal">&times;</button>
+      <h1>Pig Game</h1>
+      <p id="modal-paragraph">
+        The Pig Game gets its name from the animal "pig" because the gameplay
+        involves risk-taking and greed, much like the stereotype of pigs being
+        greedy for food. In the game, players roll a die to accumulate points,
+        but if they roll a 1, they lose their turn and forfeit any points
+        they've earned in that round. The challenge is to decide whether to
+        "play it safe" and hold or to "be greedy" and roll again for a higher
+        score.
+      </p>
+      <ul id="modal-list">
+        <li>Roll the dice</li>
+        <li>
+          The rolled number will be added to CURRENT score unless rolled a 1
+          which will drop all the CURRENT score.
+        </li>
+        <li>
+          Press HOLD button to hold the CURRENT score and add it to the total
+          score
+        </li>
+      </ul>
+    </div>
+    <div class="overlay"></div>
     <main>
       <section class="player player--0 player--active">
         <h2 class="name" id="name--0">Player 1</h2>
