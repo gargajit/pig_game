@@ -1,0 +1,114 @@
+.show-modal {
+  align-self: flex-start;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  color: #444;
+  background: none;
+  border: none;
+  margin-bottom: 2rem;
+  font-family: inherit;
+  font-size: 1.8rem;
+  text-transform: uppercase;
+  cursor: pointer;
+  font-weight: 400;
+  transition: all 0.2s;
+
+  background-color: white;
+  background-color: rgba(255, 255, 255, 0.6);
+  backdrop-filter: blur(10px);
+
+  padding: 0.7rem 2.5rem;
+  border-radius: 50rem;
+  box-shadow: 0 1.75rem 3.5rem rgba(0, 0, 0, 0.1);
+}
+
+.close-modal {
+  position: absolute;
+  top: 1.5rem;
+  right: 2rem;
+  font-size: 5rem;
+  color: #333;
+  cursor: pointer;
+  border: none;
+  background: none;
+}
+
+.modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 50%;
+  color: inherit;
+  font-family: inherit;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 6rem;
+  border-radius: 5px;
+  box-shadow: 0 3rem 5rem rgba(0, 0, 0, 0.3);
+  z-index: 10;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  backdrop-filter: blur(3px);
+  z-index: 5;
+}
+
+#modal-paragraph {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+#modal-list {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 25px;
+}
+
+@media (max-width: 980px) {
+  .modal {
+    width: 60%;
+    padding: 5.5rem;
+  }
+
+  #modal-paragraph {
+    margin-top: 18px;
+    margin-bottom: 18px;
+    font-size: 12px;
+    font-weight: 600;
+  }
+
+  #modal-list {
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 20px;
+  }
+}
+
+@media (max-width: 620px) {
+  .modal {
+    width: 70%;
+    padding: 5rem;
+  }
+
+  #modal-paragraph {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 12px;
+    font-weight: 600;
+  }
+
+  #modal-list {
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 20px;
+  }
+}
