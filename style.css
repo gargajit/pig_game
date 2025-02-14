@@ -222,7 +222,6 @@ main {
     flex-direction: row;
     justify-content: space-evenly;
     padding: 6rem;
-    gap: 10px;
   }
 
   .current {
@@ -261,6 +260,67 @@ main {
     position: absolute;
     top: 50%;
     left: 82%;
+    flex-shrink: 0;
+    transform: translate(-50%, -50%);
+  }
+}
+
+@media (max-width: 575px) {
+  html {
+    font-size: 45%;
+  }
+
+  main {
+    display: flex;
+    flex-direction: column;
+    width: 85%;
+    height: 85%;
+  }
+
+  .player {
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 4.5rem;
+    gap: 10px;
+  }
+
+  .current {
+    width: 40%;
+  }
+
+  .dice {
+    height: 9rem;
+    position: absolute;
+    left: 62%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .btn {
+    font-size: 1.2rem;
+  }
+  .btn::first-letter {
+    font-size: 1.5rem;
+  }
+
+  .btn--new {
+    position: absolute;
+    top: 50%;
+    left: 15%;
+    transform: translate(-50%, -50%);
+  }
+
+  .btn--roll {
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+  }
+
+  .btn--hold {
+    position: absolute;
+    top: 50%;
+    left: 81%;
     flex-shrink: 0;
     transform: translate(-50%, -50%);
   }
