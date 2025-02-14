@@ -379,7 +379,7 @@ main {
   .btn--hold {
     position: absolute;
     top: 50%;
-    left: 80%;
+    left: 78%;
     flex-shrink: 0;
     transform: translate(-50%, -50%);
   }
