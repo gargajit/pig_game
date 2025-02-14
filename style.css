@@ -340,7 +340,7 @@ main {
 
   body {
     position: relative;
-    top: -30px;
+    top: -50px;
   }
 
   .player {
@@ -379,7 +379,7 @@ main {
   .btn--hold {
     position: absolute;
     top: 50%;
-    left: 78%;
+    left: 75%;
     flex-shrink: 0;
     transform: translate(-50%, -50%);
   }
