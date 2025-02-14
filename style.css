@@ -297,10 +297,10 @@ main {
   }
 
   .btn {
-    font-size: 1.2rem;
+    font-size: 1.5rem;
   }
   .btn::first-letter {
-    font-size: 1.5rem;
+    font-size: 1.7rem;
   }
 
   .btn--new {
@@ -355,13 +355,6 @@ main {
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
-  }
-
-  .btn {
-    font-size: 1.2rem;
-  }
-  .btn::first-letter {
-    font-size: 1.5rem;
   }
 
   .btn--new {
