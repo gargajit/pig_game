@@ -338,6 +338,11 @@ main {
     height: 75%;
   }
 
+  body {
+    position: relative;
+    top: -30px;
+  }
+
   .player {
     flex-direction: row;
     justify-content: space-evenly;
