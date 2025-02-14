@@ -11,8 +11,12 @@ The **Pig Game** gets its name from the animal "pig" because the gameplay involv
 - CSS
 - Javascript
 
-## UI
+## UI (desktop)
 ![pig-game](https://github.com/user-attachments/assets/65f4b629-ce3f-4b15-9eb4-92d949add657)
 
 ![image](https://github.com/user-attachments/assets/0910b1fe-3361-401b-8855-5a4801bb2a4f)
+
+## UI (mobile)
+![mobile_version](https://github.com/user-attachments/assets/c131e0f0-7a70-4ddf-9c9a-d05be7c10b53)
+
 
