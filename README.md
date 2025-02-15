@@ -5,6 +5,7 @@ The **Pig Game** gets its name from the animal "pig" because the gameplay involv
 
 ![image](https://github.com/user-attachments/assets/3b5fd530-8dfa-4d10-a225-09cd29b4fcb8)
 
+**Note:** The Modal window styling is placed in a separate styling sheet to avoid cluttering main styling sheet.
 
 ## Technology
 - HTML
